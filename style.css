@@ -1,0 +1,108 @@
+body {
+   max-width: 100%;
+}
+
+.first-screen {
+   position: absolute;
+   max-width: 1920px;
+   height: 896px;
+   left: 0px;
+   top: 0px;
+   background: #818181;
+}
+
+.header {
+   display: flex;
+   position: absolute;
+   /* width: 1264px; */
+   height: 65px;
+   left: 28px;
+   top: 26px;
+}
+
+.logo {
+   display: flex;
+   position: absolute;
+   width: 348px;
+   height: 65px;
+   left: 200px;
+   top: 26px;
+}
+
+.name-janna {
+   margin-top: 5px;
+   padding-right: 10px;
+   font-family: Uni Neue;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 32px;
+   line-height: 43px;
+   color: #363636;   
+}
+
+.dot {
+   border: 1px solid #DDDDDD;
+   height: 30px;
+   margin-top: 8px;
+}
+
+.mini {
+   font-family: Uni Neue;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 12px;
+   line-height: 14px;
+   margin-left: 15px;
+   color: #4B5455;  
+}
+
+.tabs {
+   list-style: none;
+   display: flex;
+   align-items: center;
+   position: absolute;
+   width: 500px;
+   height: 18px;
+   left: 550px;
+   top: 41px;
+   font-family: Uni Neue;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 13px;
+   line-height: 18px;
+   margin: 0;
+   padding: 0;
+   float: right;
+/* identical to box height */
+   color: #363636;
+}
+
+.list-menu li {
+   display: inline-block;
+}
+
+.list {
+   margin-right: 3%;
+}
+
+.description {
+   position: absolute;
+   width: 470px;
+   height: 576px;
+   left: 228px;
+   top: 144px;
+}
+
+.second-screen {
+   position: absolute;
+   width: 1920px;
+   height: 1057px;
+   left: 0px;
+   top: 843px;
+}
+
+
+
+.right-text {
+   max-width: 500px;
+}
